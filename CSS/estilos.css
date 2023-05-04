@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;    
+    text-align:right;
+}
+li{
+    float: left;
+}
+li a{
+    display:flex;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.navigationbar{
+    float: right;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
